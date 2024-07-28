@@ -26,3 +26,9 @@ classDiagram
     UserAnime "0..n" o-- "1..n" Anime
     UserAnime "0,,1" o-- "1" User
 ```
+
+### Execução
+
+Ao executar a aplicação localmente é possível acessar a documentação da API e o banco de dados H2
+- Documentação: http://localhost:8080/swagger-ui/index.html#/
+- Console H2: http://localhost:8080/h2-console
